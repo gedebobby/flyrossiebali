@@ -12,7 +12,7 @@ export const MobileMenu = ({isMobile, setIsMobile}) => {
                 <FaTimes />
             </button>
         </div>
-        <div className="pt-[20px] pb-[90px]">
+        <div className="pt-[20px] pb-[50px]">
             <Image src={'/img/logo/logo.webp'} className='mx-auto' width={150} height={100} alt='Logo' priority />
         </div>
         <div className="text-secondary uppercase">
