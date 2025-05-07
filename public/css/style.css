@@ -1,0 +1,102 @@
+/* @import "tailwindcss"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #B76E79;
+    --secondary: #ECE8DD;
+}
+
+/* NAVBAR */
+.nav-transparent {
+    position: absolute;
+}
+.nav-sticky {
+    position: fixed;
+    background-color: var(--primary);
+    height: 100px;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.mobile-nav-link {
+    display: block;
+    width: 90%;
+    padding: 10px 5%;
+    margin: 0;
+    text-align: left;
+    color: var(--secondary);
+    border-top: 1px solid #e0e3ed;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul li:first-child {
+    border-top: 0;
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -130%;
+    width: 33%;
+    height: 100%;
+    padding: 40px;
+    transition: all 1s ease-out 0s;
+    z-index: 20;
+    min-width: 300px;
+    min-height: 768px;
+    overflow-y: scroll;
+    background-color: var(--primary);
+}
+.mobile-menu.opened{
+    right: 0;
+}
+.mobile-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-out 0s;
+}
+.mobile-overlay.opened {
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
