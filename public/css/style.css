@@ -71,6 +71,52 @@ ul li:first-child {
     visibility: visible;
 }
 
+/* TEXT */
+span.subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+h1.title,h2.title {
+    font-size: 43px;
+    font-weight: 600;
+    padding: 25px 0 30px;
+    line-height: 1.3;
+}
+p.paragraph {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+/* ABOUT */
+.bg-1 {
+    background-image: url(../img/heli/13.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+.bg-2 {
+    background-image: url(../img/heli/14.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+.btn-vision{
+    margin-right: 60px;
+}
+.btn-mission.active, .btn-vision.active {
+    text-decoration: underline;
+}
+
 @keyframes fadeInDown {
     0% {
       opacity: 0;

@@ -1,0 +1,28 @@
+{
+    "data": [
+        {   
+            "id": 1,
+            "price": "IDR 150K",
+            "title": "Rossie Sunrise Ceremony",
+            "desc": "Welcome the day from above as the sky blushes in rose gold — a serene ceremony bathed in morning light"
+        },
+        {   
+            "id": 2,
+            "price": "IDR 150K",
+            "title": "Rossie Love in the Air",
+            "desc": "Say yes among the clouds — a breathtaking proposal framed by Bali’s horizon."
+        },
+        {   
+            "id": 3,
+            "price": "IDR 150K",
+            "title": "Rossie Aerial Elopement",
+            "desc": "Begin forever with a flight — an intimate wedding soaring high in elegance and emotion."
+        },
+        {   
+            "id": 4,
+            "price": "IDR 150K",
+            "title": "Rossie Night Bloom",
+            "desc": "A rare journey beneath the stars,  where city lights flicker below and romance blooms in the night sky."
+        }
+    ]
+}

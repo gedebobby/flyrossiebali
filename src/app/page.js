@@ -1,13 +1,20 @@
+import { About } from "@/components/about/About";
+import { AboutSecond } from "@/components/about/AboutSecond";
+import { AboutThird } from "@/components/about/AboutThird";
 import { Hero } from "@/components/hero";
+import { Package } from "@/components/package";
+import { Service } from "@/components/service";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <div className="h-[200vh]">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, itaque!</p>
-      </div>
+      <About />
+      <AboutSecond />
+      <Package />
+      <Service />
+      <AboutThird />
     </>
   );
 }

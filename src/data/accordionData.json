@@ -1,0 +1,19 @@
+{
+    "data": [
+        {   
+            "id": 1,
+            "title": "A Journey Dipped in Rose Gold",
+            "content": "With its signature rose gold hue evoking luxurious romance, ROSIE invites you to a love-infused journey through the skies. More than just sightseeing, it’s a celebration of joy, connection, and life’s most meaningful moments — reimagined from above."
+        },
+        {   
+            "id": 2,
+            "title": "Bali’s First Sensory-Luxury Aerial Concept",
+            "content": "ROSIE is more than a flight, it’s a love letter written across the sky. With rose gold elegance and sensorial touches like ambient soundscapes and silk kits, every detail is curated to stir the soul. This is luxury in motion, meant to be felt, not just seen"
+        },
+        {   
+            "id": 3,
+            "title": "Tailored Touches Above the Clouds",
+            "content": "It’s a deeply personal journey wrapped in elegance. From custom boarding kits to exclusive route cards and a signature scarf, every detail is crafted just for you. Designed for comfort, safety, and an experience only a few will ever know."
+        }
+    ]
+}

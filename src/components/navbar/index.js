@@ -9,7 +9,6 @@ import { MobileMenu } from './MobileMenu';
 export const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
     const sticky  = useSticky();
-    console.log(isMobile)
   return (
     <>
     <nav className={`w-full h-[130px] z-10 ${sticky ? 'nav-sticky' : 'nav-transparent'}`}>
