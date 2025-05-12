@@ -4,7 +4,7 @@ import { GoTrophy } from "react-icons/go";
 export const CardPackage = ({price, title, desc}) => {
   return (
     <>
-    <div className='border border-primary px-[50px] py-[40px] max-sm:px-[20px] max-sm:py-[20px]'>
+    <div className='border border-primary lg:w-[90%] mx-auto px-[50px] py-[40px] max-sm:px-[30px] max-sm:py-[30px]'>
         <div className="flex justify-between mb-[30px] max-sm:mb-4">
             <span className='text-[15px] font-semibold'>SIGNATURE PACKAGE</span>
             <GoTrophy size={15}/>
@@ -15,7 +15,7 @@ export const CardPackage = ({price, title, desc}) => {
             <p>{desc}</p>
         </div>
         <div className="bottom">
-            <button className='py-[15px] px-[20px] border border-primary w-full'>BOOK NOW</button>
+            <button className='py-[15px] px-[20px] border border-primary w-full hover:bg-primary hover:text-secondary'>BOOK NOW</button>
         </div>
     </div>
     </>

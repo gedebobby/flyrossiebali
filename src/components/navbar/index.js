@@ -11,11 +11,12 @@ export const Navbar = () => {
     const sticky  = useSticky();
   return (
     <>
-    <nav className={`w-full h-[130px] z-10 ${sticky ? 'nav-sticky' : 'nav-transparent'}`}>
+    <nav className={`w-full h-[130px] max-sm:h-[100px] z-10 ${sticky ? 'nav-sticky' : 'nav-transparent'}`}>
         <div className="container h-full">
             <div className="grid grid-cols-12 h-full items-center">
                 <div className="col-span-2">
-                    <Image src={'/img/logo/logo.webp'} width={130} height={130} alt='Logo' priority />
+                    {/* <Image src={'/img/logo/logo.webp'} width={130} height={130} alt='Logo' priority /> */}
+                    <img src="/img/logo/logo.webp" alt="logo" className='w-[130px]' />
                 </div>
                 <div className="col-span-8">
                     <ul className='flex justify-around max-w-[700px] mx-auto items-center text-secondary uppercase tracking-[0.15em] max-lg:hidden'>

@@ -12,7 +12,7 @@ export const Package = () => {
                 <p className=''>Our signature packages are designed to turn your most meaningful occasions into unforgettable stories written across the sky.</p>
             </div>
             <div className="packages">
-                <div className="grid grid-cols-3 max-xl:grid-cols-2 max-xl:gap-y-[30px] max-lg:grid-cols-1 max-lg:w-full max-lg:max-w-[500px] gap-5 mx-auto">
+                <div className="grid grid-cols-2 max-xl:grid-cols-2 max-xl:gap-y-[30px] max-lg:grid-cols-1 max-lg:w-full max-lg:max-w-[500px] gap-5 mx-auto">
             {
                 packageData.data.map((data) => {
                     return (
